@@ -274,6 +274,7 @@ class FormController {
 
   async GetGroup() {
     const group = document.getElementById("group").value;
+    return group.toUpperCase(); // rozklad KPI закрив API
     const url = `https://api.rozklad.org.ua/v2/groups/${group}`;
     let response = await fetch(url);
     let group_info = await response.json();
