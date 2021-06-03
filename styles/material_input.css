@@ -124,3 +124,26 @@
   font-size: 1em;
   content: "Номер картки";
 }
+
+#department + .floater:before,
+#department:focus + .floater:before {
+  font-family: 'SF UI Display Medium';
+  font-size: 1em;
+  content: "Факультет/інститут";
+}
+
+.bank-container {
+  max-width: 600px;
+  margin: 10px 0;
+}
+
+#bank_select {
+  width: 50%;
+  height: 25px;
+}
+
+.label {
+  color: #666;
+  font-family: 'SF UI Display Medium';
+  font-size: 1em;
+}
