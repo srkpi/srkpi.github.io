@@ -66,6 +66,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "Ім'я";
+  white-space: nowrap;
 }
 
 #patronymic + .floater:before,
@@ -73,6 +74,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "По-батькові";
+  white-space: nowrap;
 }
 
 #phone + .floater:before,
@@ -80,6 +82,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "Номер телефону (разом +380)";
+  white-space: nowrap;
 }
 
 #department + .floater:before,
@@ -87,6 +90,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "Акронім назви факультету/інституту";
+  white-space: nowrap;
 }
 
 #group + .floater:before,
@@ -101,6 +105,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "Рік вступу";
+  white-space: nowrap;
 }
 
 
@@ -109,6 +114,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "Ідентифікаційний код";
+  white-space: nowrap;
 }
 
 #iban_number + .floater:before,
@@ -116,6 +122,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "IBAN рахунок";
+  white-space: nowrap;
 }
 
 #card_number + .floater:before,
@@ -123,6 +130,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "Номер картки";
+  white-space: nowrap;
 }
 
 #department + .floater:before,
@@ -130,6 +138,7 @@
   font-family: 'SF UI Display Medium';
   font-size: 1em;
   content: "Факультет/інститут";
+  white-space: nowrap;
 }
 
 .bank-container {
